@@ -163,35 +163,35 @@ module.exports = [
                 chunks: ['editor'],
                 template: 'src/playground/index.ejs',
                 filename: 'editor.html',
-                title: 'Snail IDE - A mod of PenguinMod',
+                title: 'CrabsProgramming - A mod of Snail IDE',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['playground'],
                 template: 'src/playground/index.ejs',
                 filename: 'playground.html',
-                title: 'Snail IDE - A mod of PenguinMod',
+                title: 'CrabsProgramming - A mod of Snail IDE',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['player'],
                 template: 'src/playground/index.ejs',
                 filename: 'index.html',
-                title: 'Snail IDE - A mod of PenguinMod',
+                title: 'CrabsProgramming - A mod of Snail IDE',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['fullscreen'],
                 template: 'src/playground/index.ejs',
                 filename: 'fullscreen.html',
-                title: 'Snail IDE - A mod of PenguinMod',
+                title: 'CrabsProgramming - A mod of Snail IDE',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['embed'],
                 template: 'src/playground/index.ejs',
                 filename: 'embed.html',
-                title: 'Embedded Project - Snail IDE',
+                title: 'CrabsProgramming - A mod of Snail IDE',
                 noTheme: true,
                 ...htmlWebpackPluginCommon
             }),
@@ -199,14 +199,14 @@ module.exports = [
                 chunks: ['addon-settings'],
                 template: 'src/playground/simple.ejs',
                 filename: 'addons.html',
-                title: 'Addon Settings - Snail IDE',
+                title: 'CrabsProgramming - A mod of Snail IDE',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['credits'],
                 template: 'src/playground/simple.ejs',
                 filename: 'credits.html',
-                title: 'Snail IDE, PenguinMod & TurboWarp Credits',
+                title: 'CrabsProgramming, Snail IDE, PenguinMod & TurboWarp Credits',
                 noSplash: true,
                 ...htmlWebpackPluginCommon
             }),
