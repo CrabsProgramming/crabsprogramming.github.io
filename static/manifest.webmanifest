@@ -1,7 +1,7 @@
 {
-  "short_name": "Snail IDE",
-  "name": "Snail IDE",
-  "description": "Mod of PenguinMod that was made to allow for really cool projects.",
+  "short_name": "CrabsProgramming",
+  "name": "CrabsProgramming",
+  "description": "Mod of Snail IDE that was made to allow for really cool projects.",
   "icons": [
     {
       "src": "images/applogo.svg",
