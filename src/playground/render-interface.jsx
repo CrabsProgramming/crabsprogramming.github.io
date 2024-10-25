@@ -73,7 +73,7 @@ const handleClickAddonSettings = () => {
 
 const messages = defineMessages({
     defaultTitle: {
-        defaultMessage: 'A mod of PenguinMod',
+        defaultMessage: 'A mod of Snail IDE',
         description: 'Title of homepage',
         id: 'tw.guiDefaultTitle'
     }
@@ -186,7 +186,7 @@ const Footer = () => (
                             id="tw.feedback"
                         />
                     </a>
-                    <a href="https://github.com/Snail-IDE/">
+                    <a href="https://github.com/CrabsProgramming/">
                         <FormattedMessage
                             defaultMessage="Source Code"
                             description="Link to source code"
@@ -269,9 +269,9 @@ class Interface extends React.Component {
     }
     handleUpdateProjectTitle(title, isDefault) {
         if (isDefault || !title) {
-            document.title = `Snail IDE - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
+            document.title = `CrabsProgramming - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
         } else {
-            document.title = `${title} - Snail IDE`;
+            document.title = `${title} - CrabsProgramming`;
         }
     }
     render() {
@@ -416,8 +416,8 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="Snail IDE is a mod of Penguinmod to add new blocks and features either in extensions or in Snail IDE's main toolbox. PenguinMod is a TurboWarp mod that adds features for advanced use. Try it out by choosing an uploaded project below or making your own in the editor."
-                                        description="Description of PenguinMod and TurboWarp"
+                                        defaultMessage="CrabsProgramming is a mod of Snail IDE to add new blocks and features either in extensions or in other stuff. Snail IDE is a mod of Penguinmod to add new blocks and features either in extensions or in Snail IDE's main toolbox. PenguinMod is a TurboWarp mod that adds features for advanced use. Try it out by choosing an uploaded project below or making your own in the editor."
+                                        description="Description of Snail IDE, PenguinMod and TurboWarp"
                                         id="tw.home.description"
                                     />
                                 </p>
